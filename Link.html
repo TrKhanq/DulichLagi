@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Biển Lagi</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f5f5f5;
+            color: #333;
+        }
+
+        header {
+            background-color: #444;
+            color: white;
+            padding: 10px;
+            display: flex;
+            justify-content: space-around;
+            position:fixed;
+            width:100%;
+            top:0;
+
+        }
+
+        header a {
+            color: white;
+            text-decoration: none;
+            margin: 0 10px;
+            font-weight: bold;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 20px auto;
+            padding: 20px;
+            background: white;
+            border-radius: 8px;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .content {
+            display: flex;
+            align-items: center;
+            gap: 20px;
+        }
+
+        .content img {
+            max-width: 100%;
+            border-radius: 8px;
+            width:50%;
+        }
+
+        .content-text {
+            flex: 1;
+        }
+
+        .content-text h1 {
+            font-size: 24px;
+            color: #ff9800;
+            margin-bottom: 10px;
+        }
+
+        .content-text p {
+            line-height: 1.6;
+            font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+            font-size:large;
+        }
+        img {
+            border-radius: 10px;
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            
+        }
+        h2 {
+            font-size: 22px;
+            color: black;
+            margin-bottom: 10px;
+            text-indent: 1%;
+        }
+        h3 {
+            font-size:20px;
+            color:black;
+            margin-bottom: 12px ;
+            text-indent: 1%;
+        }   
+        p {
+            margin-left: 5%;
+        }
+        iframe{
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            border-radius: 10px;
+        } 
+        .hotel {
+            display: flex;
+            align-items: center;
+            background: white;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            margin: 1rem 0;
+            padding: 1rem;
+        }
+        .hotel img {
+            border-radius: 8px;
+            margin-right: 2%;
+            margin-left: 2%;
+        }
+        .hotel h2 {
+            color: #ff6600;
+            margin-top: 0;
+        }
+        .hotel p {
+            margin: 0.5rem 0;
+           
+        }
+        .stars {
+            color: #ffcc00;
+        }
+        html{
+            scroll-behavior: smooth;
+        }
+        .hover-text {
+            color: white; /* Màu chữ ban đầu */
+            transition: color 0.3s; /* Hiệu ứng chuyển đổi màu */
+        }
+        .hover-text:hover {
+            color:#ff8c00 ; /* Màu chữ khi di chuột vào */
+        }
+        .totop {
+            position: fixed; /* Đặt nút ở vị trí cố định */
+            bottom: 30px; /* Cách đáy trang 20px */
+            right: 0px; /* Cách phải trang 1px */
+            z-index: 99; /* Đảm bảo nút nằm trên các phần tử khác */
+        }
+        .totop:hover {
+            transform: scale(1.2); /* Màu nền khi di chuột qua */
+        }    
+   </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="index.html"class="hover-text">Trang chủ</a>
+            <a href="#Phuongtien"class="hover-text">Phương tiện</a>
+            <a href="#Diadiem"class="hover-text">Địa điểm</a>
+            <a href="#Angi"class="hover-text">Ăn gì</a>
+            <a href="#Odau"class="hover-text">Ở đâu</a>
+        </nav>
+    </header>
+
+    <div class="container">
+        <div class="content">
+            <div class="content-text">
+                <h1 id="top">Biển xanh, Cát trắng, Nắng vàng</h1>
+                <p>Nằm cách thành phố Hồ Chí Minh 150km, Lagi với biển xanh êm đềm, những đồi cát trắng mịn còn hoang sơ đang là một điểm đến thu hút đông đảo du khách muốn cảm nhận sự bình yên, trốn khỏi những ồn ào, xô bồ của cuộc sống.</p>
+            </div>
+            <img src="bien-cam-binh-2020 (1).jpg" alt="Hình ảnh Biển Lagi" width="50%" height="50%">
+        </div>
+        <div class="content-text">
+            <h1 id="Phuongtien">Phương tiện di chuyển đến Lagi</h1>
+            <p>Nếu xuất phát từ Hồ Chí Minh, bạn có thể di chuyển bằng xe khách đến Lagi. Thời gian để di chuyển tới đây vào khoảng 3 đến 4 tiếng rưỡi. 
+                Một số nhà xe bạn có thể tham khảo: Mỹ Loan, Cát Tiên, A Liêm… </p>
+    <img src="nha-xe-my-loan (1).jpg" width="70%" height="70%">
+            <p>Ngoài ra nếu như thích có một chuyến phượt thú vị thì bạn có thể lựa chọn phương tiện là xe máy. Bạn có thể đi theo cung đường dọc theo quốc lộ 55, hướng từ Bà Rịa đi Lagi, đến ngã 3 Cam Bình rồi rẽ vào bãi biển Cam Bình. Hoặc bạn đi tiếp vào đường Lê Minh Công khoảng 700m để đến Coco Beach Camp. Nếu đi xe từ quốc lộ 1, bạn chạy theo hướng thành phố Hồ Chí Minh – Long Khánh – Hàm Tân, đến ngã ba 46 các bạn rẽ phải chạy thẳng đến bùng binh ngã tư Quân Cảnh rồi rẽ phải tiếp chạy theo quốc Lộ 55 sẽ đến ngã ba Cam Bình.</p>    
+    <img src="Z4326105242412_7Bac1 (1).jpg" width="900px">
+            <h1 id="Diadiem">Những địa điểm du lịch ở Lagi</h1>
+            <h2> CoCo Beach</h2>
+    <img src="R (2) (1).jpg" width="900px">
+            <p>Được mệnh danh là “thiên đường sống ảo” của giới trẻ, <b>Coco Beach Camp</b> chính là địa điểm mà bạn không thể bỏ qua khi đến Lagi. </p>
+            <p>Bước chân vào <b> Coco Beach</b> bạn sẽ ngay lập tức cảm nhận được sự khác lạ so với thế giới bên ngoài. Ở ngay giữa Lagi bình lặng này lại sở hữu một thiên đường biển với không gian mang đậm hơi hướng Hawai, sầm uất và náo nhiệt như thế. Không gian ở<b> Coco Beach</b> đẹp từng milimet, góc nào cũng có view đẹp để bạn tha hồ sống ảo.</p>    
+    <img src="5-2 (1).jpg" width="900px">
+    <br>
+    <img src="R (3) (1).jpg" width="900px">
+    <br>
+    <img src="bien-cam-binh-52hz (1).jpg" width="900px">
+            <h2> Hải đăng Kê Gà</h2>
+            <p><b>Hải đăng Kê Gà</b> là một trong những địa điểm du lịch mà bạn không nên bỏ qua khi đến Lagi. Từ trung tâm thị xã, bạn chỉ cần đi thêm khoảng 30km là sẽ đến mũi Kê Gà. Nơi đây là một hòn đảo nhỏ cách đất liền khoảng 500m, tuy nhiên khi thủy chiều rút xuống sẽ xuất hiện một dải cát nối mũi Kê Gà vào với đất liền. Nơi đây có ngọn hải đăng lâu đời và nổi tiếng nhất Việt Nam, luôn được thắp sáng 24/24.</p>   
+    <img src="Phượt Mũi Kê Gà Bình Thuận (1).jpg" width="900px">
+    <br>
+    <img src="Z4326105242412_7Bac1 (1).jpg" width="900px">
+            <h2>Biển Đồi Dương</h2>
+    <img src="1535778241-02FFB390-B76B-4110-B792-771C7DAC5FE3 (1).jpg" width="900px">
+            <p>Là một bãi tắm đẹp , nằm ở vị trí địa lý cuối miền trung, được thiên nhiên ưu đãi . Quanh năm đón ánh nắng vàng và ít mưa. Hầu hết các ngày trong năm bạn đều có thể ghé bãi biển Đồi Dương Lagi để trải nghiệm và thư giãn. Ở đây có bờ cát mịn màng, nước rất trong và không hề có sâu biển hay sứa như một số nơi khác.</p>
+    <img src="bien_lagi_doi_duong_01 (1).jpg" width="900px">
+            <p>Là một bãi tắm hoang sơ, vô cùng sạch sẽ và e ấp .<b> Biển Đồi Dương Lagi</b> như một thiếu nữ mới lớn đang tuổi trăng tròn. Với những cơn sóng lúc êm đềm, lúc vồ vập như tình cảm dạt dào. Dải cát trắng mịn bên thềm biển ôm trọn lấy từng đợt sóng xô.</p>
+            <h2>Núi Tà Cú</h2>
+            <p><b>Núi Tà Cú </b> tọa lạc tại thị trấn Thuận Nam, huyện Hàm Thuận Nam, tỉnh Bình Thuận. Ngọn núi này nằm ngay ven quốc lộ 1A nên rất thuận tiện cho việc di chuyển. Từ trung tâm thành phố Phan thiết đến đây khoảng cách chỉ tầm 28km.<b> Núi Tà Cú </b>có độ cao 649m, trước đây là một ngọn núi lửa. Ngày nay, nơi đây là một khu vực rừng bảo tồn thiên nhiên quốc gia với hệ động vật và thảm thực vật vô cùng phong phú với nhiều loài trong sách đỏ.</p>
+    <img src="Chùa Linh Sơn Trường Thọ (Chùa Núi, Hàm Thuận Nam – Bình Thuận) (1).jpg" width="900px">
+            <p>Thời điểm khu du lịch đông khách nhất là vào mùa xuân. Lúc này mọi người có nhiều thời gian thảnh thơi và hành hương lễ Phật đầu năm cũng là truyền thống của dân tộc ta. 
+                Đến đây thời điểm này, du khách sẽ được chứng kiến mai vàng, vông đỏ nở rực rỡ núi đồi.</p>            
+            <h1 id="Angi">Ăn gì ở LaGi ?</h1>
+            <h3>Chả lụi Sa</h3>
+    <img src="quan-an-Lagi-4 (1).jpg" width="900px">
+            <p><b>Địa chỉ:</b> 69 Trần Hưng Đạo</p>
+            <p><b>Giờ mở cửa:</b> 14h-20h</p>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3767.823344838258!2d107.7719585748553!3d10.658124689483556!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3175cf48b09128cd%3A0xfd463df6c4bdb8d8!2zNjkgVHLhuqduIEjGsG5nIMSQ4bqhbywgUGjGsOG7nW5nIFBoxrDhu5tjIEjhu5lpLCBMYSBHaSwgQsOsbmggVGh14bqtbiwgVmnhu4d0IE5hbQ!5e1!3m2!1svi!2s!4v1737993456280!5m2!1svi!2s" width="900" height="400" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>    
+            <p>Nằm ở chợ Đại Đồng (Chợ chiều), các món ăn tại quán dao động từ 20.000đ trở lên. Chả lụi được dùng kèm với bánh tráng, rau sống và nước chấm. Ai ghé Bình Thuận mà không thưởng thức món ăn này quả là một thiếu sót. Quán nằm gần chợ rất thích hợp cho các bạn vừa muốn thưởng thức ẩm thực vùng miền vừa muốn mua sắm La Gi. 
+            <br>Chả lụi được thực khách miêu tả lại là ăn rất giòn và ngon, nước chấm đậm đà, cay cay, chị chủ quán rất dễ thương và mến khách mà một phần chả lụi lại rất rẻ.</br></p>
+            <h3>Bánh căn cô Minh</h3>
+            <p><b>Địa chỉ:</b> 125 Trương Vĩnh Kí</p>
+            <p><b>Giờ mở cửa:</b> 15h-21h</p>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1883.9284612302704!2d107.77282242748419!3d10.655411198685773!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3175cf003250f6e7%3A0xdf4ffb5d5f1edadf!2zUXXDoW4gQsOhbmggY8SDbiBDw7QgTWluaA!5e1!3m2!1svi!2s!4v1737994468223!5m2!1svi!2s" width="900" height="400" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            <br>    
+    <img src="phanthiet_banh-can-phan-thiet-05 (1).jpg" width="900px">
+            <p> Mỗi đĩa bánh căn chỉ tầm 15-30k. Bao gồm xíu mại, cá, chả,... ăn kèm cũng nước mắm, xoài bào và đồ chua. Vị cay, mặn, ngọt của nước mắm thắm đẫm vào từng cặp bánh căn giòn sẽ khiến thực khách bất ngờ.</p>
+            <h3>Hải sản 9 Thuận</h3>
+            <p>Lagi là thiên đường của những tín đồ ẩm thực với sự đa dạng và phong phú của các món ăn. Bạn có thể thưởng thức những món hải sản tươi ngon như ghẹ, mực, tôm, cua, cá,… được chế biến thành nhiều món ăn hấp dẫn như lẩu hải sản, nướng, hấp, gỏi,…</p>
+    <img src="unnamed (1).jpg" width="900px">
+            <p><b>Địa chỉ:</b> 37 Huỳnh Thúc Kháng</p>
+            <p><b>Giờ mở cửa:</b> 15h30-22h</p>
+            <p><b>Số điện thoại:</b> 0901200645</p>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3253.678682426395!2d107.77432918504552!3d10.667728002458592!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3175cf39ed8350af%3A0xde6599695e5ec958!2zMzcgSHXhu7NuaCBUaMO6YyBLaMOhbmcsIFBoxrDhu51uZyBCw6xuaCBUw6JuLCBMYSBHaSwgQsOsbmggVGh14bqtbiwgVmnhu4d0IE5hbQ!5e1!3m2!1svi!2s!4v1737996244008!5m2!1svi!2s" width="900" height="400" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            <h1 id="Odau">Ở đâu khi đến LaGi ?</h1>
+            <p><b>Du lịch Lagi Bình Thuận ngày càng phát triển nên bạn có thể chọn bất cứ loại hình lưu trú nào khi đến đây từ homestay đến khách sạn 4 sao. Một số khách sạn ở Lagi đảm bảo tiêu chí “phòng ngon giá ổn” bạn có thể tham khảo như:</b></p>
+        </div>
+        <div class="hotel">            
+            <img src="345625339_759820195805491_3983562356236697104_n (1).jpg" alt="Lagi Dinh Relax Hotel" width="30%" height="300px" >
+            <div>    
+                <h2>LaGi Dinh Relax Hotel <span class="stars">★★</span></h2>
+                <br>
+                <p><strong>Địa chỉ:</strong> 456A Lý Thái Tổ, Tân Tiến, thị xã LaGi</p>
+                <br>
+                <p><strong>Giá phòng (2 người):</strong> 250.000 - 300.000 VNĐ/đêm</p>
+                <br>
+                <p><strong>Diện tích:</strong>  15m<sup>2</sup></p>
+                <br>
+                <p><strong>Tiện ích:</strong> Wifi miễn phí, máy lạnh, gần biển</p>
+                <br>
+                <p><b>Đánh giá (Traveloka):</b> 7,4 (Tiện lợi)</p>
+            </div>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3767.19393747945!2d107.83651977485584!3d10.708862889435833!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3175ce13ed288a95%3A0x59e9545ffa326c5f!2zNDU2QSDEkMaw4budbmcgTMO9IFRow6FpIFThu5UsIFTDom4gVGnhur9uLCBMYSBHaSwgQsOsbmggVGh14bqtbiwgVmnhu4d0IE5hbQ!5e1!3m2!1svi!2s!4v1738035224233!5m2!1svi!2s" width="350" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>    
+        </div>
+        <div class="hotel">
+            <img src="448173079_441032295548581_844662129935578477_n (1).jpg"width="30%" height="300px">
+            <div>
+                <h2>Lahona Hotel Lagi <span class="stars">★★</span></h2>
+                <br>
+                <p><strong>Địa chỉ:</strong> 317 Nguyễn Trường Tộ, Tân Thiện, thị xã LaGi</p>
+                <br>
+                <p><strong>Giá phòng (2 người):</strong> 350.000 - 550.000 VNĐ/đêm</p>
+                <br>
+                <p><strong>Diện tích:</strong>  16m<sup>2</sup></p>
+                <br>
+                <p><strong>Tiện ích:</strong> Wifi miễn phí, máy lạnh, lễ tân 24h, chỗ đậu xe</p>
+                <br>
+                <p><b>Đánh giá (Traveloka):</b> 9,0 (Ấn tượng)</p>
+            </div>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3767.557304356689!2d107.75832807485556!3d10.67959998946336!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3175c8d3790eee89%3A0x1602fecae810bcaa!2zMzE3IE5ndXnhu4VuIFRyxrDhu51uZyBU4buZLCBUw6JuIFRoaeG7h24sIExhIEdpLCBCw6xuaCBUaHXhuq1uLCBWaeG7h3QgTmFt!5e1!3m2!1svi!2s!4v1738038026916!5m2!1svi!2s" width="350" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+        <div class="hotel">
+            <img src="superior-room-1-2-800x400 (1).jpg" width="30%" height="300px">
+            <div>
+                <h2>Mỏm Đá Chim - Lazi Beach Resort & Spa <span class="stars">★★★★</span></h2>
+                <br>
+                <p><strong>Địa chỉ:</strong> Lý Thái Tổ, xã Tân Tiến, Tân Tiến, thị xã LaGi</p>
+                <br>
+                <p><strong>Giá phòng (2 người):</strong> 1.300.000vnd - 2.450.000vnd/đêm</p>
+                <br>
+                <p><strong>Diện tích:</strong>  44m<sup>2</sup></p>
+                <br>
+                <p><strong>Tiện ích:</strong> Wifi miễn phí, máy lạnh, lễ tân 24h, chỗ đậu xe, nhà hàng, hồ bơi</p>
+                <br>
+                <p><b>Đánh giá (Traveloka):</b> 8.1 (Tiện lợi)</p>
+            </div>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3767.2304005561323!2d107.84272117485594!3d10.705929989438605!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3175ce1773b55f93%3A0x160800848ff0f91d!2zTGF6aSBCZWFjaCBSZXNvcnQgTeG7j20gxJDDoSBDaGlt!5e1!3m2!1svi!2s!4v1738039260447!5m2!1svi!2s" width="350" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>    
+    </div>        
+        </div>    
+    </div>
+<div class="totop"><a href='#top' title="Back to top"><img src="up-arrow.png" width="10%" height="10%"></a></div>
+</body>
+</html>
