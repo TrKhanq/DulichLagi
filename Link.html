@@ -140,7 +140,17 @@
         .totop:hover {
             transform: scale(1.2); /* Màu nền khi di chuột qua */
         }    
-   </style>
+       .zoom img{
+            display:block;
+	        transition: all .3s ease;
+        }
+        .zoom img:hover{
+            transform: scale(1.05);
+        }
+        .zoom div{
+            display:block;
+	        overflow: hidden;
+    </style>
 </head>
 <body>
     <header>
